@@ -64,7 +64,7 @@ console.log(square_func(10));
 
 //ARROW NOTATION OF FUNCTIONS
 
-const power = (base, exp) =>{
+const power = (base, exp) => {
     let result = 1;
 
     for (let i = 0; i < exp; i++) {
@@ -74,4 +74,8 @@ const power = (base, exp) =>{
     return result;
 }
 
-console.log("2 ^ 8 is : ", power(2,8));
+console.log("2 ^ 8 is : ", power(2, 8));
+
+const square1 = (x) => { return x * x };
+
+console.log("sqaure of 24 is : ", square1(24));
