@@ -139,20 +139,25 @@ console.log(square_func(10));
 
 // console.log(power(3, 9));
 
-// GROWTH FUNCTIONS
+// // GROWTH FUNCTIONS
 
-function zeroPad(number, width) {
-    let string = String(number);
-    while (string.length < width) {
-        string = "0" + string;
-    }
-    return string;
-}
+// function zeroPad(number, width) {
+//     let string = String(number);
+//     while (string.length < width) {
+//         string = "0" + string;
+//     }
+//     return string;
+// }
 
-function printFarmInventory(cows, chickens, pigs) {
-    console.log(`${zeroPad(cows, 3)} Cows`);
-    console.log(`${zeroPad(chickens, 3)} Chickens`);
-    console.log(`${zeroPad(pigs, 3)} Pigs`);
-}
+// function printFarmInventory(cows, chickens, pigs) {
+//     console.log(`${zeroPad(cows, 3)} Cows`);
+//     console.log(`${zeroPad(chickens, 3)} Chickens`);
+//     console.log(`${zeroPad(pigs, 3)} Pigs`);
+// }
 
-printFarmInventory(7, 16, 301);
+// printFarmInventory(7, 16, 301);
+
+let list = [1, 2, 3, 4, 5, 6, 7];
+console.log(list[2]);
+console.log(list[0]);
+console.log(list[list[3]]);
