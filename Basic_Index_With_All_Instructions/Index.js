@@ -183,22 +183,78 @@ console.log(square_func(10));
 // console.log(sequence);
 
 
-//OBJECTS with its PROPERTIES
+// //OBJECTS with its PROPERTIES
 
-let day1 = {
-    squirrel: false, //squirrel & events are the properties of the object day1
-    events: ["work", "touched tree", "pizza", "running"]
+// let day1 = {
+//     squirrel: false, //squirrel & events are the properties of the object day1
+//     events: ["work", "touched tree", "pizza", "running"]
+// }
+
+// console.log(day1.squirrel);
+
+// console.log(day1.wolf);
+
+// day1.wolf = true;
+
+// console.log(day1.wolf);
+
+// console.log(day1.events[1]);
+
+// console.log(day1);
+
+//Delete Operator: TO delete a property of an object
+
+let anObject = {
+    left: 1,
+    right: 2
 }
+console.log(anObject.left);
 
-console.log(day1.squirrel);
+delete anObject.left;
 
-console.log(day1.wolf);
+console.log(anObject.left);
 
-day1.wolf = true;
+//in operator: tells whether the property exists in the object or not
+console.log("left" in anObject);
 
-console.log(day1.wolf);
+console.log(anObject.right);
 
-console.log(day1.events[1]);
+//Object.keys : function to show all the properties of an object
+console.log(Object.keys(anObject));
 
-console.log(day1);
+//Object.assign : function that copies all the properties of 1 object to another
 
+let obj1 = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+console.log(obj1);
+
+Object.assign(obj1, { c: 4, d: 5, e: 10 });
+
+console.log(obj1);
+
+//ARRAY OF OBJECTS
+
+let journal = [{
+        events: ["work", "touched tree", "pizza",
+            "running", "television"
+        ],
+        squirrel: false
+    },
+    {
+        events: ["work", "ice cream", "cauliflower",
+            "lasagna", "touched tree", "brushed teeth"
+        ],
+        squirrel: false
+    },
+    {
+        events: ["weekend", "cycling", "break", "peanuts",
+            "beer"
+        ],
+        squirrel: true
+    }
+];
+
+console.log(journal[2].events[3]);
