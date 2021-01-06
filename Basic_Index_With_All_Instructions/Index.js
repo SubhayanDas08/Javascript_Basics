@@ -157,7 +157,48 @@ console.log(square_func(10));
 
 // printFarmInventory(7, 16, 301);
 
-let list = [1, 2, 3, 4, 5, 6, 7];
-console.log(list[2]);
-console.log(list[0]);
-console.log(list[list[3]]);
+// //ARRAYS
+// let list = [1, 2, 3, 4, 5, 6, 7];
+// console.log(list[2]);
+// console.log(list[0]);
+// console.log(list[list[3]]);
+
+
+// //PROPERTY METHODS
+// let doh = "Doh";
+// console.log(typeof doh.toUpperCase);
+// // → function
+// console.log(doh.toUpperCase());
+// // → DOH
+
+// let sequence = [1, 2, 3];
+// console.log(sequence);
+
+// sequence.push(4);
+// sequence.push(5);
+
+// console.log(sequence);
+
+// console.log(sequence.pop());
+// console.log(sequence);
+
+
+//OBJECTS with its PROPERTIES
+
+let day1 = {
+    squirrel: false, //squirrel & events are the properties of the object day1
+    events: ["work", "touched tree", "pizza", "running"]
+}
+
+console.log(day1.squirrel);
+
+console.log(day1.wolf);
+
+day1.wolf = true;
+
+console.log(day1.wolf);
+
+console.log(day1.events[1]);
+
+console.log(day1);
+
