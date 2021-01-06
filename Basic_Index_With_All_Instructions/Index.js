@@ -202,59 +202,81 @@ console.log(square_func(10));
 
 // console.log(day1);
 
-//Delete Operator: TO delete a property of an object
+// //Delete Operator: TO delete a property of an object
 
-let anObject = {
-    left: 1,
-    right: 2
-}
-console.log(anObject.left);
+// let anObject = {
+//     left: 1,
+//     right: 2
+// }
+// console.log(anObject.left);
 
-delete anObject.left;
+// delete anObject.left;
 
-console.log(anObject.left);
+// console.log(anObject.left);
 
-//in operator: tells whether the property exists in the object or not
-console.log("left" in anObject);
+// //in operator: tells whether the property exists in the object or not
+// console.log("left" in anObject);
 
-console.log(anObject.right);
+// console.log(anObject.right);
 
-//Object.keys : function to show all the properties of an object
-console.log(Object.keys(anObject));
+// //Object.keys : function to show all the properties of an object
+// console.log(Object.keys(anObject));
 
-//Object.assign : function that copies all the properties of 1 object to another
+// //Object.assign : function that copies all the properties of 1 object to another
 
-let obj1 = {
-    a: 1,
-    b: 2,
-    c: 3
-}
-console.log(obj1);
+// let obj1 = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// console.log(obj1);
 
-Object.assign(obj1, { c: 4, d: 5, e: 10 });
+// Object.assign(obj1, { c: 4, d: 5, e: 10 });
 
-console.log(obj1);
+// console.log(obj1);
 
-//ARRAY OF OBJECTS
+// //ARRAY OF OBJECTS
 
-let journal = [{
-        events: ["work", "touched tree", "pizza",
-            "running", "television"
-        ],
-        squirrel: false
-    },
-    {
-        events: ["work", "ice cream", "cauliflower",
-            "lasagna", "touched tree", "brushed teeth"
-        ],
-        squirrel: false
-    },
-    {
-        events: ["weekend", "cycling", "break", "peanuts",
-            "beer"
-        ],
-        squirrel: true
-    }
-];
+// let journal = [{
+//         events: ["work", "touched tree", "pizza",
+//             "running", "television"
+//         ],
+//         squirrel: false
+//     },
+//     {
+//         events: ["work", "ice cream", "cauliflower",
+//             "lasagna", "touched tree", "brushed teeth"
+//         ],
+//         squirrel: false
+//     },
+//     {
+//         events: ["weekend", "cycling", "break", "peanuts",
+//             "beer"
+//         ],
+//         squirrel: true
+//     }
+// ];
 
-console.log(journal[2].events[3]);
+// console.log(journal[2].events[3]);
+
+// MUTABILITY
+
+let obj1 = { val: 10 };
+let obj2 = obj1;
+let obj3 = { val: 10 };
+
+console.log(obj1 == obj2);
+console.log(obj1 == obj3);
+
+obj1.val = 15;
+
+console.log(obj2.val);
+
+//const objects cant be changed but the properties can be modified individually
+const score = { visitors: 0, home: 0 };
+// This is okay
+score.visitors = 1;
+// This isn't allowed
+//score = { visitors: 1, home: 1 };
+
+console.log(score);
