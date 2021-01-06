@@ -259,24 +259,24 @@ console.log(square_func(10));
 
 // console.log(journal[2].events[3]);
 
-// MUTABILITY
+// // MUTABILITY
 
-let obj1 = { val: 10 };
-let obj2 = obj1;
-let obj3 = { val: 10 };
+// let obj1 = { val: 10 };
+// let obj2 = obj1;
+// let obj3 = { val: 10 };
 
-console.log(obj1 == obj2);
-console.log(obj1 == obj3);
+// console.log(obj1 == obj2);
+// console.log(obj1 == obj3);
 
-obj1.val = 15;
+// obj1.val = 15;
 
-console.log(obj2.val);
+// console.log(obj2.val);
 
-//const objects cant be changed but the properties can be modified individually
-const score = { visitors: 0, home: 0 };
-// This is okay
-score.visitors = 1;
-// This isn't allowed
-//score = { visitors: 1, home: 1 };
+// //const objects cant be changed but the properties can be modified individually
+// const score = { visitors: 0, home: 0 };
+// // This is okay
+// score.visitors = 1;
+// // This isn't allowed
+// //score = { visitors: 1, home: 1 };
 
-console.log(score);
+// console.log(score);
