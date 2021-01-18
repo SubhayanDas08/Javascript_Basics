@@ -53,7 +53,7 @@ if (true) {                    //If Condition
 //y is not visible as it is out of scope
 console.log(x + z);
 
-//DECLARATION NOTATION OF FUNCTIONS
+// //DECLARATION NOTATION OF FUNCTIONS
 
 function square_func(x){            //this is a function declaration
     return x*x;
@@ -62,7 +62,7 @@ function square_func(x){            //this is a function declaration
 console.log(square_func(10));
 */
 
-//ARROW NOTATION OF FUNCTIONS
+// //ARROW NOTATION OF FUNCTIONS
 
 // const power = (base, exp) => {
 //     let result = 1;
