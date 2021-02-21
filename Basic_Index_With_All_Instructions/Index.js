@@ -280,3 +280,17 @@ console.log(square_func(10));
 // //score = { visitors: 1, home: 1 };
 
 // console.log(score);
+
+array = [3, 1, 1, 3]
+
+function check(array) {
+
+    for (var i = 0; i < 4 - 1; i++) {
+        for (var j = i + 1; j <= 4; j++) {
+            if (arr[i] == arr[j]) {
+                console.log(arr[i]);
+                break;
+            }
+        }
+    }
+}
