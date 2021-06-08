@@ -47,3 +47,15 @@ var marks = {
     harry: 98
 }
 console.log(marks);
+
+//Booleans
+var a = true;
+var b = false;
+
+//Undefined and NULL
+var x = undefined;
+var y = null;
+
+//Arrays
+var arr = [1, 2, 3, "subh", 5, 6, 7, true]
+console.log(arr);
