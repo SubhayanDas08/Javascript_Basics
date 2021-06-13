@@ -161,3 +161,71 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 //     console.log(element);
 // })
 
+let j = 0;
+
+// while(j<arr.length){
+//     console.log(arr[j]);
+//     j++;
+// }
+
+// do {
+//     console.log(arr[j]);
+//     j++;
+// } while (j < arr.length);
+
+
+// 9> BREAK AND CONTINUE
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (i == 2) {
+//         // break;
+//         continue;
+//     }
+//     console.log(arr[i]);
+
+// }
+
+
+// 10> ARRAY METHODS
+
+let myArr = ["fan", "camera", 1, 2, 3, null, true];
+
+// console.log(myArr.length);
+// myArr.pop();
+// console.log(myArr);
+// myArr.push("Subhayan");
+// console.log(myArr);
+// myArr.shift(); //removes the first one
+// console.log(myArr);
+// myArr.unshift("das"); //adds in front
+// console.log(myArr);
+// str = myArr.toString();
+// console.log(str)
+// arr = [9, 7, 5, 3, 7, 82, 1, 4, 1, 7, 0]
+// arr.sort();
+// console.log(arr);
+
+
+//10> STRING METHODS
+
+let str = "Subhayan is a coder";
+
+// console.log(str.length);
+// console.log(str.indexOf("coder"));
+// console.log(str.slice(1, 5));
+// str2 = str.replace("coder", "developer");
+// console.log(str);
+// console.log(str2);
+
+
+// 11> DATES
+
+let myDate = new Date();
+// console.log(myDate);
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// console.log(myDate.getMonth());
+// console.log(myDate.getMinutes());
+
+// 12> DOM MANIPULATION
