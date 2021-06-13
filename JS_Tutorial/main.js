@@ -229,3 +229,42 @@ let myDate = new Date();
 // console.log(myDate.getMinutes());
 
 // 12> DOM MANIPULATION
+
+let elemID = document.getElementById('click');
+// console.log(elemID);
+
+let elemClass = document.getElementsByClassName('container');
+// console.log(elemClass);
+
+// elemClass[0].style.background = "blue";
+// elemClass[0].classList.add("bg-primary");
+// elemClass[0].classList.add("text-success");
+// elemClass[0].classList.remove("text-success");
+// console.log(elemClass[0].innerHTML);
+// console.log(elemClass[0].innerText);
+// console.log(elemID.innerHTML);
+// console.log(elemID.innerText);
+
+let elemTag = document.getElementsByTagName('div');
+
+// console.log(elemTag);
+
+// createdElement = document.createElement('p');
+// createdElement.innerText = "This is a created paragraph";
+// elemTag[0].appendChild(createdElement);
+
+// createdElement2 = document.createElement('b');
+// createdElement2.innerText = "This is a replaced paragraph";
+// elemTag[0].replaceChild(createdElement2, createdElement);
+
+// elemTag[0].removeChild(createdElement2);
+
+// SELECTING USING QUERY FOR CSS
+
+// sel = document.querySelector('#click');
+// console.log(sel);
+// sel = document.querySelectorAll('.container');
+// console.log(sel);
+
+
+// 13> EVENTS IN JAVASCRIPT
