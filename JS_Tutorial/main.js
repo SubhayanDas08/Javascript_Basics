@@ -308,3 +308,54 @@ window.onload = function() {
 
 
 // 14> SET TIMEOUT AND SET INTERVAL
+
+// Arrow Functions:
+
+// function sum(a, b) {
+//     return a + b;
+// }
+
+// sum = (a, b) => {
+//     return a + b;
+// }
+
+// Set Timeout:
+
+log = () => {
+    console.log("Log Entered!");
+    document.querySelectorAll('.container')[1].innerHTML = "<b>Log has been Entered!</b>"
+}
+
+clr = setTimeout(log, 2000);
+
+clearTimeout(clr) //for stopping set timeout, we need define it under a variable and clear it
+
+// Set Interval (For Repeated Times):
+
+clr = setInterval(log, 2000);
+
+clearInterval(clr); //for stopping set interval, we need define it under a variable and clear it
+
+
+// 15> LOCAL STORAGE
+
+// localStorage.setItem('Name', 'Subhayan');
+// localStorage.getItem('Name');
+// localStorage.removeItem('Name');
+// localStorage.clear();
+
+
+// 16> JSON
+
+obj = { name: "Subhayan", length: 10, rand: { this: "hello" } };
+
+// Converting JS Object to JSON
+jsonData = JSON.stringify(obj);
+console.log(typeof jsonData);
+console.log(jsonData);
+
+
+// Converting JSON Data to JS Object
+// parsed = JSON.parse(`{"name":"Subhayan","length":10,"rand":{"this":"hello"}}`)
+parsed = JSON.parse(jsonData);
+console.log(parsed);
